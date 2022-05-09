@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	position: sticky;
+	top: 0;
+	background: white;
+}
+
+#achievement{
+	height: 50px;
+	display: flex;
+	color: white;
+}
+
+#achievement div{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#achievement .pos{
+	background-color: green;
+}
+
+#achievement .neg{
+	background-color: red;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	margin: 35px auto;
+}
+
+form>*{
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+form h2{
+	text-align: center;
+}
+
+form input{
+	font-size: 20px;
+	padding: 10px;
+}
+
+form button{
+	border: 2px solid blue;
+	background-color: transparent;
+	color: blue;
+	font-weight: 900;
+	cursor: pointer;
+}
+#deals .deal{
+	background-color: grey;
+	display: flex;
+	justify-content: space-between;
+}
+
+#deals .deal+.deal{
+	margin-top: 20px;
+}
+
+#deals .info{
+	padding: 15px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#deals .triggers div{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn_pos{
+	background-color: lightblue;
+}
+.btn_neg{
+	background-color: red;
+}
+
+#deals .empty_info{
+	font-size: 30px;
+	text-align: center;
+}
